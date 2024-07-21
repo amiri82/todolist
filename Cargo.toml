@@ -1,0 +1,10 @@
+[package]
+name = "todolist"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = { version = "0.4.38", features = ["serde"] }
+crossterm = "0.27.0"
+inquire = { version = "0.7.5", features = ["date"] }
+rusqlite = { version = "0.31.0", features = ["chrono"] }
